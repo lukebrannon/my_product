@@ -11,8 +11,7 @@ Plone Accessibility
     Goto homepage
     Click link  Accessibility
     Page should contain  Accessibility Statement
-    Goto content
-    Page should contain  Flowers
+
 *** Keywords ***
 
 Start browser
@@ -21,7 +20,3 @@ Start browser
 Goto homepage
     Go to  http://localhost:55001/plone/
     Page should contain  Plone site
-
-Goto content
-    Go to  http://localhost:55001/plone/content
-    Page should contain  Flowers
